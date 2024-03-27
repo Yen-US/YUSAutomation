@@ -29,8 +29,6 @@ export default function HeroComponent({
               "--delay": "3s",
             } as React.CSSProperties
           }
-        hero-color-start={""}
-        hero-color-end={""}
         className="block relative hero"
       >
         {dictionary["Hero"]["Main2"]}
@@ -44,8 +42,6 @@ export default function HeroComponent({
               "--delay": "6s",
             } as React.CSSProperties
           }
-        hero-color-start={""}
-        hero-color-end={""}
         className="block relative hero"
       >
         {dictionary["Hero"]["Main3"]}
