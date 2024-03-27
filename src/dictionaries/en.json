@@ -23,5 +23,15 @@
     "en": "English",
     "es": "Spanish",
     "tooltip": "Change the language?" 
+  },
+  "Hero": {
+    "title": "Automatizaciones de IA",
+    "subtitle": "Automatizaciones de IA para tu negocio",
+    "othertitle": "Contactanos",
+    "button": "Contactanos",
+    "Main1": "Automate.",
+    "Main2": "Save.",
+    "Main3": "Grow.",
+    "slogan": "Ultima teconologia en favor de tu negocio"
   }
 }

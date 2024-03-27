@@ -2,6 +2,7 @@ import Footer from "@/components/footer";
 import NavbarsParentComponent from "@/components/navbar-parent";
 import { getDictionary } from "../../get-dictionary";
 import { Locale } from "../../i18n-config";
+import HeroComponent from "@/components/hero";
 
 export type NestedDictionary = { [key: string]: { [key: string]: string } };
 
@@ -17,7 +18,7 @@ export default async function Home({
 
     <main className="flex min-h-screen min-w-screen flex-col justify-between font-mono">
       <NavbarsParentComponent dictionary={dictionary as NestedDictionary}/>
-      <div>Hi</div>
+      <HeroComponent dictionary={dictionary as NestedDictionary}/>
       <Footer dictionary={dictionary as NestedDictionary}/>
     </main>
   );
