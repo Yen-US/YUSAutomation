@@ -16,7 +16,7 @@ import {
 } from "@/components/ui/navigation-menu"
 import Logo from "@/components/logo";
 import { NestedDictionary } from "@/page";
-
+import { LangToggle } from "@/components/lang-toggle";
 
 export default function NavBar( { className, dictionary }: { className: string, dictionary: NestedDictionary} ) {
     const navbarText = dictionary["navbar"];
@@ -60,7 +60,10 @@ export default function NavBar( { className, dictionary }: { className: string, 
                         </NavigationMenuItem>
                     </NavigationMenuList>
                 </NavigationMenu>
+                <div className="flex items-center gap-1">
                 <ModeToggle dictionary={dictionary}/>
+                <LangToggle dictionary={dictionary}/>
+                </div>
                 </div>
         </nav>
     );

@@ -18,5 +18,10 @@
   },
   "footer": {
     "text": "Made with ❤ by"
+  },
+  "langToggle": {
+    "en": "English",
+    "es": "Spanish",
+    "tooltip": "Change the language?" 
   }
 }
