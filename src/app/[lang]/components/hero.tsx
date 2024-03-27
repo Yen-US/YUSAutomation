@@ -11,8 +11,8 @@ export default function HeroComponent({
         hero-content={dictionary["Hero"]["Main1"]}
         style={
           {
-            "--gradientStart": "red",
-            "--gradientEnd": "blue",
+            "--gradientStart": "orange",
+            "--gradientEnd": "red",
             "--delay": "0s",
           } as React.CSSProperties
         }
@@ -24,8 +24,8 @@ export default function HeroComponent({
         hero-content={dictionary["Hero"]["Main2"]}
         style={
             {
-              "--gradientStart": "blue",
-              "--gradientEnd": "gray",
+              "--gradientStart": "red",
+              "--gradientEnd": "blue",
               "--delay": "3s",
             } as React.CSSProperties
           }
@@ -37,8 +37,8 @@ export default function HeroComponent({
         hero-content={dictionary["Hero"]["Main3"]}
         style={
             {
-              "--gradientStart": "orange",
-              "--gradientEnd": "red",
+              "--gradientStart": "blue",
+              "--gradientEnd": "gray",
               "--delay": "6s",
             } as React.CSSProperties
           }
