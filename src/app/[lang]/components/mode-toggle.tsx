@@ -18,8 +18,11 @@ import {
   TooltipTrigger,
 } from "@/components/ui/tooltip"
 
-export function ModeToggle() {
+import { NestedDictionary } from "@/page"
+
+export function ModeToggle(  { dictionary }: { dictionary: NestedDictionary} ) {
   const { setTheme } = useTheme()
+  const modeText = dictionary["modeToggle"]
 
   return (
     <TooltipProvider>
@@ -31,21 +34,21 @@ export function ModeToggle() {
               <Button className="flex justify-between relative" variant="outline" size="icon">
                 <SunIcon className="absolute h-[1.2rem] w-[1.2rem] rotate-0 scale-100 transition-all dark:-rotate-90 dark:scale-0 left-2" />
                 <MoonIcon className="absolute h-[1.2rem] w-[1.2rem] rotate-90 scale-0 transition-all dark:rotate-0 dark:scale-100 left-2" />
-                <h2 className="absolute left-12 text-md sm:hidden">Dark or eye pain mode?</h2>
+                <h2 className="absolute left-12 text-md sm:hidden">{modeText["tooltip"]}</h2>
               </Button>
             </TooltipTrigger>
           </DropdownMenuTrigger>
           <DropdownMenuContent align="end">
             <DropdownMenuItem onClick={() => setTheme("light")}>
-              Light
+              {modeText["light"]}
             </DropdownMenuItem>
             <DropdownMenuItem onClick={() => setTheme("dark")}>
-              Dark
+              {modeText["dark"]}
             </DropdownMenuItem>
           </DropdownMenuContent>
         </DropdownMenu>
         <TooltipContent className="sm:block hidden">
-          <p>Dark or eye pain mode?</p>
+          <p>{modeText["tooltip"]}</p>
         </TooltipContent>
       </Tooltip>
     </TooltipProvider>

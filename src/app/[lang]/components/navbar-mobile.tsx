@@ -13,15 +13,15 @@ import { Button } from "@/components/ui/button"
 import { HamburgerMenuIcon } from "@radix-ui/react-icons"
 import Logo from "@/components/logo";
 
+import { NestedDictionary } from "@/page";
 
-
-export default function NavBarMobile({ className }  : { className: string }) {
-
+export default function NavBarMobile({ className, dictionary }: { className: string, dictionary: NestedDictionary}) {
+    const navbarText = dictionary["navbar"];
     return (
         <nav className={className}>
             <div className="flex items-center gap-2">
                 <Logo/>
-                <Badge variant="outline"> v1.0 </Badge>
+                <Badge variant="outline"> {navbarText["badge"]} </Badge>
             </div>
             <div className="flex align-center gap-2">
                 <Sheet>
@@ -30,8 +30,8 @@ export default function NavBarMobile({ className }  : { className: string }) {
                     </Button></SheetTrigger>
                     <SheetContent>
                         <SheetHeader className="flex flex-col">
-                                <SupportButton /> 
-                                <ModeToggle />
+                                <SupportButton dictionary={dictionary} /> 
+                                <ModeToggle dictionary={dictionary}/>
                         </SheetHeader>
                     </SheetContent>
                 </Sheet>

@@ -1,0 +1,22 @@
+{
+    "navbar": {
+      "badge": "IA",
+      "toolbarItemOne": "Automatizaciones",
+      "toolbarItemTwo": "Precios",
+      "toolbarItemThree": "Contactanos"
+    },
+    "modeToggle": {
+      "dark": "Oscuro",
+      "light": "Claro",
+      "tooltip": "Modo oscuro o dolor de ojos?" 
+    },
+    "supportME": {
+      "tooltip": "Comprame un galleta!"
+    },
+    "topButton": {
+      "text": "Arriba"
+    },
+    "footer": {
+      "text": "Hecho con ❤ por"
+    }
+  }

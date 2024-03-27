@@ -1,0 +1,22 @@
+{
+  "navbar": {
+    "badge": "AI",
+    "toolbarItemOne": "Automations",
+    "toolbarItemTwo": "Pricing",
+    "toolbarItemThree": "Contact us"
+  },
+  "modeToggle": {
+    "dark": "Dark",
+    "light": "Light",
+    "tooltip": "Dark or eye pain mode?" 
+  },
+  "supportME": {
+    "tooltip": "Buy me a cookie!"
+  },
+  "topButton": {
+    "text": "Top"
+  },
+  "footer": {
+    "text": "Made with ❤ by"
+  }
+}
