@@ -87,8 +87,7 @@ const config = {
           "45%": { opacity: "0" },
         },
         "hero-span": {
-          "15%": { color: "transparent" },
-          "50%": { color: "var(--foreground)" },
+          "15%": { color: "transparent" }
         }
       },
       animation: {
