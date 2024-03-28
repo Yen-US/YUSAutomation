@@ -2,9 +2,10 @@ import { NestedDictionary } from "@/page";
 import { Button } from "./ui/button";
 
 export default function HeroComponent({
-  dictionary,
+  dictionary
 }: {
   dictionary: NestedDictionary;
+  
 }) {
   return (
     <h1 className="flex justify-center items-center flex-col mb-4 sm:text-8xl font-black tracking-tighter leading-[1.1em] text-6xl">
