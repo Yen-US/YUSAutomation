@@ -88,6 +88,7 @@ const config = {
         },
         "hero-span": {
           "15%": { color: "transparent" },
+          "50%": { color: "var(--foreground)" },
         }
       },
       animation: {
