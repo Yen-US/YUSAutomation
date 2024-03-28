@@ -39,7 +39,7 @@ export default function HeroComponent({
         style={
             {
               "--gradientStart": "blue",
-              "--gradientEnd": "gray",
+              "--gradientEnd": "cyan",
               "--delay": "6s",
             } as React.CSSProperties
           }
