@@ -25,6 +25,7 @@ const config = {
       },
       boxShadow: {
         'inshadow': '0px 120px 30px -100px hsl(var(--ring)) inset',
+        'b-shadow': '0px 0px 10px 0px hsl(var(--background))',
       },
       fontFamily: {
         sans: ['var(--font-geist-sans)'],
