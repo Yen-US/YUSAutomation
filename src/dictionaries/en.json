@@ -25,13 +25,11 @@
     "tooltip": "Change the language?" 
   },
   "Hero": {
-    "title": "Automatizaciones de IA",
-    "subtitle": "Automatizaciones de IA para tu negocio",
-    "othertitle": "Contactanos",
-    "button": "Contactanos",
     "Main1": "Accelerate.",
     "Main2": "Automate.",
     "Main3": "Adapt.",
-    "slogan": "Ultima teconologia en favor de tu negocio"
+    "buttonContact": "Contact Us",
+    "buttonFreeStart": "Kickstart for free",
+    "slogan": "Your business on cutting edge technology"
   }
 }
