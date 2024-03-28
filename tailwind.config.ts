@@ -19,6 +19,10 @@ const config = {
       },
     },
     extend: {
+      delay:{
+        "3000": "3000ms",
+        "6000": "6000ms",
+      },
       boxShadow: {
         'inshadow': '0px 120px 30px -100px hsl(var(--ring)) inset',
       },
@@ -76,17 +80,20 @@ const config = {
           to: { height: "0" },
         },
         "hero-gradient": {
-          "0%": { opacity: "1" },
-          "16.6667%": { opacity: "1" },
-          "33.333%": { opacity: "0" },
-          "83.333%": { opacity: "0" },
-          "100%": { opacity: "1"},
+          "0%": { opacity: "0" },
+          "20%": { opacity: "1" },
+          "35%": { opacity: "1" },
+          "45%": { opacity: "0" },
+        },
+        "hero-span": {
+          "15%": { color: "transparent" },
         }
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
         "hero-gradient": "hero-gradient 9s infinite",
+        "hero-span": "hero-span 9s infinite",
       },
     },
   },

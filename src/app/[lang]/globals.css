@@ -75,16 +75,23 @@
     @apply bg-background text-foreground;
   }
 
+  .hero{
+    animation-delay: var(--delay) !important;
+  }
+
   .hero::before {
     @apply animate-hero-gradient;
     content: attr(hero-content);
     background: linear-gradient(90deg, var(--gradientStart), var(--gradientEnd));
     position: absolute;
     inset: 0;
-    -webkit-background-clip: text;
-    background-clip: text;
+    -webkit-background-clip: text !important;
+    background-clip: text !important;
+    color: transparent;
     -webkit-text-fill-color: transparent;
     animation-delay: var(--delay);
+    opacity: 0;
+    z-index: 1;
   }
   
 }

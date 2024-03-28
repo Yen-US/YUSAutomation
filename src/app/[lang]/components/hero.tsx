@@ -1,4 +1,5 @@
 import { NestedDictionary } from "@/page";
+import { Button } from "./ui/button";
 
 export default function HeroComponent({
   dictionary,
@@ -6,7 +7,7 @@ export default function HeroComponent({
   dictionary: NestedDictionary;
 }) {
   return (
-    <h1 className="flex justify-center items-center flex-col mb-4 text-8xl font-black tracking-tighter leading-tight">
+    <h1 className="flex justify-center items-center flex-col mb-4 text-8xl font-black tracking-tighter leading-[1.1em]">
       <span
         hero-content={dictionary["Hero"]["Main1"]}
         style={
@@ -16,7 +17,7 @@ export default function HeroComponent({
             "--delay": "0s",
           } as React.CSSProperties
         }
-        className="block relative hero"
+        className="block relative hero animate-hero-span delay-0 pr-3"
       >
         {dictionary["Hero"]["Main1"]}
       </span>
@@ -29,7 +30,7 @@ export default function HeroComponent({
               "--delay": "3s",
             } as React.CSSProperties
           }
-        className="block relative hero"
+        className="block relative hero animate-hero-span delay-3000 pr-3"
       >
         {dictionary["Hero"]["Main2"]}
       </span>
@@ -42,7 +43,7 @@ export default function HeroComponent({
               "--delay": "6s",
             } as React.CSSProperties
           }
-        className="block relative hero"
+        className="block relative hero animate-hero-span delay-6000 pr-3"
       >
         {dictionary["Hero"]["Main3"]}
       </span>
