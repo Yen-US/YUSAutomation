@@ -1,35 +1,56 @@
 {
-  "navbar": {
-    "badge": "AI",
-    "toolbarItemOne": "Automations",
-    "toolbarItemTwo": "Pricing",
-    "toolbarItemThree": "Contact us"
+  "NavBar": {
+    "navbar": {
+      "badge": "AI",
+      "toolbarItemOne": "Automations",
+      "toolbarItemTwo": "Pricing",
+      "toolbarItemThree": "Contact us"
+    },
+    "modeToggle": {
+      "dark": "Dark",
+      "light": "Light",
+      "tooltip": "Dark or eye pain mode?"
+    },
+    "supportME": {
+      "tooltip": "Buy me a cookie!"
+    },
+    "topButton": {
+      "text": "Top"
+    },
+    "langToggle": {
+      "en": "English",
+      "es": "Spanish",
+      "tooltip": "Change the language?"
+    }
   },
-  "modeToggle": {
-    "dark": "Dark",
-    "light": "Light",
-    "tooltip": "Dark or eye pain mode?" 
+  "Footer": {
+    "footer": {
+      "text": "Made with ❤ by"
+    }
   },
-  "supportME": {
-    "tooltip": "Buy me a cookie!"
+  "Home": {
+    "Hero": {
+      "Main1": "Accelerate.",
+      "Main2": "Automate.",
+      "Main3": "Adapt.",
+      "buttonContact": "Contact Us",
+      "buttonFreeStart": "Kickstart for free",
+      "slogan": "Your business on cutting edge technology"
+    }
   },
-  "topButton": {
-    "text": "Top"
-  },
-  "footer": {
-    "text": "Made with ❤ by"
-  },
-  "langToggle": {
-    "en": "English",
-    "es": "Spanish",
-    "tooltip": "Change the language?" 
-  },
-  "Hero": {
-    "Main1": "Accelerate.",
-    "Main2": "Automate.",
-    "Main3": "Adapt.",
-    "buttonContact": "Contact Us",
-    "buttonFreeStart": "Kickstart for free",
-    "slogan": "Your business on cutting edge technology"
+  "Contact": {
+    "contactform": {
+      "title": "Contact us",
+      "subtitle": "And start your cutting edge digital transformation",
+      "schedulemessage":"Want to skip the form and connect directly with an expert?",
+      "schedulebutton":"Select a time",
+      "formemail": "Contact email",
+      "formemailplaceholder": "Your email address",
+      "formmessage": "How can we help?",
+      "formmessageplaceholder": "Your company needs",
+      "formbutton": "Submit Form",
+      "emailerror": "Please enter a valid email address",
+      "messageerror": "Please enter a longer message"
+    }
   }
 }

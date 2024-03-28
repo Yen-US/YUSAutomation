@@ -1,4 +1,5 @@
 {
+  "NavBar": {
     "navbar": {
       "badge": "IA",
       "toolbarItemOne": "Automatizaciones",
@@ -8,7 +9,7 @@
     "modeToggle": {
       "dark": "Oscuro",
       "light": "Claro",
-      "tooltip": "Modo oscuro o dolor de ojos?" 
+      "tooltip": "Modo oscuro o dolor de ojos?"
     },
     "supportME": {
       "tooltip": "Comprame un galleta!"
@@ -16,14 +17,18 @@
     "topButton": {
       "text": "Arriba"
     },
-    "footer": {
-      "text": "Hecho con ❤ por"
-    },
     "langToggle": {
       "en": "Ingles",
       "es": "Español",
-      "tooltip": "Te gustaria cambiar el idioma?" 
-    },
+      "tooltip": "Te gustaria cambiar el idioma?"
+    }
+  },
+  "Footer": {
+    "footer": {
+      "text": "Hecho con ❤ por"
+    }
+  },
+  "Home": {
     "Hero": {
       "Main1": "Automatizar.",
       "Main2": "Acelerar.",
@@ -32,4 +37,20 @@
       "buttonFreeStart": "Empieza Gratis",
       "slogan": "Tu empresa o negocio con la ultima tecnología"
     }
+  },
+  "Contact": {
+    "contactform":{
+      "title": "Contactanos",
+      "subtitle": "Y embarca en la transformación digital de tu empresa o negocio",
+      "schedulemessage":"¿Te gustaría contactarnos lo antes posible y hablar con un experto?",
+      "schedulebutton":"Selecciona una hora",
+      "formemail": "Correo de contacto",
+      "formemailplaceholder": "Tu correo electrónico",
+      "formmessage": "Como podemos ayudarte?",
+      "formmessageplaceholder": "Las necesidades de tu empresa o negocio",
+      "formbutton": "Enviar mensaje",
+      "emailerror": "Por favor ingresa un correo válido",
+      "messageerror": "Por favor ingresa un mensaje mas elaborado"
+    }
   }
+}

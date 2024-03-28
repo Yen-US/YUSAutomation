@@ -1,5 +1,3 @@
-import Footer from "@/components/footer";
-import NavbarsParentComponent from "@/components/navbar-parent";
 import { getDictionary } from "../../get-dictionary";
 import { Locale } from "../../i18n-config";
 import HeroComponent from "@/components/hero";
@@ -12,16 +10,15 @@ export default async function Home({
 }: {
   params: { lang: Locale };
 }) {
-  const dictionary = await getDictionary(lang);
+  const wholeDictionary = await getDictionary(lang);
+  const dictionary = wholeDictionary["Home"];
 
   return (
     
 
-    <main className="flex min-h-screen min-w-screen flex-col justify-between font-mono">
-      <NavbarsParentComponent dictionary={dictionary as NestedDictionary}/>
-      <HeroComponent dictionary={dictionary as NestedDictionary}/>
-      <HomeButtonsComponent dictionary={dictionary as NestedDictionary}/>
-      <Footer dictionary={dictionary as NestedDictionary}/>
+    <main>
+      <HeroComponent dictionary={dictionary as NestedDictionary} />
+      <HomeButtonsComponent dictionary={dictionary as NestedDictionary} lang={lang}/>
     </main>
   );
 }
