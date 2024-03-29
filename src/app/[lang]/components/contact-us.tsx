@@ -24,6 +24,7 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 import Link from "next/link";
+import { toast } from "sonner"
 
 
 export default function ContactUS({
@@ -43,12 +44,20 @@ export default function ContactUS({
       message: "",
     },
   });
-  function onSubmit(values: z.infer<typeof formSchema>) {
+
+  const onSubmit =  async (values: z.infer<typeof formSchema>) => {
     try {
-        fetch('/api/contact', { method: 'POST', body: JSON.stringify({ email: values.email, message: values.message }) });
+        const response = await fetch('/api/contact', { method: 'POST', body: JSON.stringify({ email: values.email, message: values.message }) });
+        if (response.ok) {
+          toast.success(contactText["emailsent"]);
+          form.reset();
+        } else {
+          // Handle errors
+          toast.error(contactText["emailsenterror"]);
+        }
       } catch (error) {
         // Handle errors
-        console.error('Error sending email:', error);
+        toast.error(contactText["emailsenterror"]);
       }
   }
 

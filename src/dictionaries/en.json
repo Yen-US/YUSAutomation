@@ -50,7 +50,9 @@
       "formmessageplaceholder": "Your company needs",
       "formbutton": "Submit Form",
       "emailerror": "Please enter a valid email address",
-      "messageerror": "Please enter a longer message"
+      "messageerror": "Please enter a longer message",
+      "emailsent": "Information sent, we will contact you soon!",
+      "emailsenterror": "An unexpected error occurred, please try again later"
     }
   }
 }

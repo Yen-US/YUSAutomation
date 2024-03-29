@@ -32,19 +32,21 @@ export default async function RootLayout({
 
   return (
     <html className={`${GeistSans.variable}`} lang={lang}>
-      <body className="flex min-w-screen min-h-screen flex-col justify-between bg-background antialiased font-mono">
+      <body>
         <ThemeProvider
           attribute="class"
           defaultTheme="system"
           enableSystem
           disableTransitionOnChange
         >
+          <div className="flex min-w-screen min-h-screen flex-col justify-between bg-background antialiased font-mono">
           <NavbarsParentComponent
             dictionary={navDictionary as NestedDictionary}
             lang={lang}
           />{" "}
           {children}
           <Footer dictionary={footerDictionary as NestedDictionary} />{" "}
+          </div>
           <Toaster />
         </ThemeProvider>
       </body>

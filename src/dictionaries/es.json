@@ -50,7 +50,9 @@
       "formmessageplaceholder": "Las necesidades de tu empresa o negocio",
       "formbutton": "Enviar mensaje",
       "emailerror": "Por favor ingresa un correo válido",
-      "messageerror": "Por favor ingresa un mensaje mas elaborado"
+      "messageerror": "Por favor ingresa un mensaje mas elaborado",
+      "emailsent": "Información enviada con éxito, te contactaremos pronto",
+      "emailsenterror": "Un error inesperado ha ocurrido, por favor intenta de nuevo"
     }
   }
 }
