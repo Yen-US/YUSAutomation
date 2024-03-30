@@ -36,6 +36,12 @@
       "buttonContact": "Contactanos",
       "buttonFreeStart": "Empieza Gratis",
       "slogan": "Tu empresa o negocio con la ultima tecnología"
+    },
+    "Banner":{
+      "title": "Automatizaciones",
+      "subtitle": "Automatizaciones de procesos y tareas repetitivas",
+      "content": "Automatizamos procesos y tareas repetitivas de tu empresa o negocio, para que puedas enfocarte en lo que realmente importa, tu empresa o negocio.",
+      "description": "Procesos y tareas repetitivas, para que puedas enfocarte en lo que realmente importa, tu empresa o negocio."
     }
   },
   "Contact": {

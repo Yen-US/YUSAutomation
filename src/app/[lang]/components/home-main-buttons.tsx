@@ -10,7 +10,7 @@ export default function HomeButtonsComponent({
   lang: string;
 }) {
   return (
-    <div className="flex gap-4 justify-center mt-6">
+    <div className="flex gap-4 justify-center mt-10">
         <Button size="lg" className="w-32"><Link href={"/"+lang+"/contact"}>{dictionary["Hero"]["buttonContact"]} </Link> </Button>
         <Button size="lg" className="w-32" variant="outline"><Link href={"/"+lang+"/contact"}> {dictionary["Hero"]["buttonFreeStart"]}</Link> </Button>
     </div>

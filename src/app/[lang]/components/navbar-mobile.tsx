@@ -1,6 +1,5 @@
 import { Badge } from "@/components/ui/badge"
 import { ModeToggle } from "@/components/mode-toggle"
-import SupportButton from "@/components/support-button";
 import {
     Sheet,
     SheetContent,
@@ -33,7 +32,6 @@ export default function NavBarMobile({ className, dictionary, lang }: { classNam
                     </Button></SheetTrigger>
                     <SheetContent>
                         <SheetHeader className="flex flex-col">
-                                <SupportButton dictionary={dictionary} /> 
                                 <ModeToggle dictionary={dictionary}/>
                         </SheetHeader>
                     </SheetContent>

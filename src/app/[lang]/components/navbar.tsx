@@ -1,7 +1,6 @@
 "use client";
 import { Badge } from "@/components/ui/badge";
 import { ModeToggle } from "@/components/mode-toggle";
-import SupportButton from "@/components/support-button";
 
 import {
   NavigationMenu,
@@ -81,7 +80,6 @@ export default function NavBar({
 
       <div className="flex items-center gap-4">
         <div className="flex items-center gap-1">
-          <SupportButton dictionary={dictionary} />
           <ModeToggle dictionary={dictionary} />
           <LangToggle dictionary={dictionary} />
         </div>

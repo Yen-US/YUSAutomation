@@ -36,6 +36,12 @@
       "buttonContact": "Contact Us",
       "buttonFreeStart": "Kickstart for free",
       "slogan": "Your business on cutting edge technology"
+    },
+    "Banner":{
+      "title": "Automatizaciones",
+      "subtitle": "Automatizaciones de procesos y tareas repetitivas",
+      "content": "Automatizamos procesos y tareas repetitivas de tu empresa o negocio, para que puedas enfocarte en lo que realmente importa, tu empresa o negocio.",
+      "description": "Proccess and repetitive task, so you can focus on what really matters, your business."
     }
   },
   "Contact": {
